@@ -75,7 +75,6 @@ local ConfigurationExtension = ".rfld"
 local settingsTable = {
 	General = {
 		-- if needs be in order just make getSetting(name)
-		rayfieldOpen = {Type = 'bind', Value = 'K', Name = 'Rayfield Keybind'},
 		-- buildwarnings
 		-- rayfieldprompts
 
@@ -3449,7 +3448,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 		createSettings(Window)
 	end)
 	
-
+	if not success thenend
 	
 	return Window
 end
